@@ -1,9 +1,9 @@
 # go-locale
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/jeandeaual/go-locale)](https://pkg.go.dev/github.com/jeandeaual/go-locale)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jeandeaual/go-locale)](https://goreportcard.com/report/github.com/jeandeaual/go-locale)
-[![Coverage Status](https://coveralls.io/repos/github/jeandeaual/go-locale/badge.svg?branch=master)](https://coveralls.io/github/jeandeaual/go-locale?branch=master)
-[![test](https://github.com/jeandeaual/go-locale/workflows/test/badge.svg)](https://github.com/jeandeaual/go-locale/actions?query=workflow%3Atest)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/fyne-io/go-locale)](https://pkg.go.dev/github.com/fyne-io/go-locale)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fyne-io/go-locale)](https://goreportcard.com/report/github.com/fyne-io/go-locale)
+[![Coverage Status](https://coveralls.io/repos/github/fyne-io/go-locale/badge.svg?branch=master)](https://coveralls.io/github/fyne-io/go-locale?branch=master)
+[![test](https://github.com/fyne-io/go-locale/workflows/test/badge.svg)](https://github.com/fyne-io/go-locale/actions?query=workflow%3Atest)
 
 Go library used to retrieve the current locale(s) of the operating system.
 
@@ -29,7 +29,7 @@ Go library used to retrieve the current locale(s) of the operating system.
           ```go
           import (
               "fyne.io/fyne/v2/driver"
-              "github.com/jeandeaual/go-locale"
+              "github.com/fyne-io/go-locale"
           )
 
           func init() {
@@ -48,7 +48,7 @@ Go library used to retrieve the current locale(s) of the operating system.
           ```go
           import (
               "golang.org/x/mobile/app"
-              "github.com/jeandeaual/go-locale"
+              "github.com/fyne-io/go-locale"
           )
 
           func init() {
@@ -76,7 +76,7 @@ This can be used with [golang.org/x/text](https://godoc.org/golang.org/x/text) o
 
 ```go
 import (
-	"github.com/jeandeaual/go-locale"
+	"github.com/fyne-io/go-locale"
 	"golang.org/x/text/message"
 )
 
@@ -89,7 +89,7 @@ func main() {
 
 ```go
 import (
-	"github.com/jeandeaual/go-locale"
+	"github.com/fyne-io/go-locale"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"golang.org/x/text/language"
 )
@@ -140,3 +140,5 @@ if err == nil {
 ## Aknowledgements
 
 Inspired by [jibber_jabber](https://github.com/cloudfoundry-attic/jibber_jabber).
+This repository is a fork of [jeandeaual/go-locale](https://github.com/jeandeaual/go-locale),
+this fork will be removed when the upgrades it contains are merged upstream.

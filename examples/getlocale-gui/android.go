@@ -6,7 +6,7 @@ package main
 import (
 	"fyne.io/fyne/v2/driver"
 
-	"github.com/jeandeaual/go-locale"
+	"github.com/fyne-io/go-locale"
 )
 
 func init() {

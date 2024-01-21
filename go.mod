@@ -1,4 +1,4 @@
-module github.com/jeandeaual/go-locale
+module github.com/fyne-io/go-locale
 
 go 1.14
 

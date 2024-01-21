@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jeandeaual/go-locale"
+	"github.com/fyne-io/go-locale"
 )
 
 func main() {
